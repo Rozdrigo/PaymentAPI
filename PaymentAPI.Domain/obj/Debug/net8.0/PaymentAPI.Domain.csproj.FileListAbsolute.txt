@@ -1,0 +1,14 @@
+C:\Users\rodri\source\repos\PaymentAPI.Domain\bin\Debug\net8.0\PaymentAPI.Domain.deps.json
+C:\Users\rodri\source\repos\PaymentAPI.Domain\bin\Debug\net8.0\PaymentAPI.Domain.dll
+C:\Users\rodri\source\repos\PaymentAPI.Domain\bin\Debug\net8.0\PaymentAPI.Domain.pdb
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.AssemblyInfo.cs
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.dll
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\refint\PaymentAPI.Domain.dll
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.pdb
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\ref\PaymentAPI.Domain.dll
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\rodri\source\repos\PaymentAPI.Domain\bin\Debug\net8.0\PaymentAPI.Domain.runtimeconfig.json
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.genruntimeconfig.cache

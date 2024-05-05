@@ -1,0 +1,15 @@
+# Diretórios
+/bin/
+/obj/
+/packages/
+/tmp/
+
+# Arquivos temporários
+*.suo
+*.user
+*.csproj.user
+*.vbproj.user
+
+# Logs
+*.log
+*.output

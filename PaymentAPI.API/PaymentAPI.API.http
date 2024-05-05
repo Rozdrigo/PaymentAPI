@@ -1,0 +1,6 @@
+@PaymentAPI.API_HostAddress = http://localhost:5199
+
+GET {{PaymentAPI.API_HostAddress}}/swagger/index.html
+Accept: application/json
+
+###

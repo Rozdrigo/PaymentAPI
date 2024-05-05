@@ -1,0 +1,17 @@
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Infrastructure.deps.json
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Infrastructure.dll
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Infrastructure.pdb
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.dll
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\refint\PaymentAPI.Infrastructure.dll
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.pdb
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\ref\PaymentAPI.Infrastructure.dll
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Infrastructure.runtimeconfig.json
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Domain.dll
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Domain.pdb
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentA.25AF0F5A.Up2Date
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.genruntimeconfig.cache

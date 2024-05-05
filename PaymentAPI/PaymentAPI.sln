@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentAPI", "PaymentAPI", "{CA16BC64-F3E2-4992-826E-08E721F64E60}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+		Dockerfile.dockerfile = Dockerfile.dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI.Domain", "..\PaymentAPI.Domain\PaymentAPI.Domain.csproj", "{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI.Infrastructure", "..\PaymentAPI.Infrastructure\PaymentAPI.Infrastructure.csproj", "{65EB4DF4-8611-497D-82F8-74F292A1F2E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI.API", "..\PaymentAPI.API\PaymentAPI.API.csproj", "{4BBC06C9-6FCA-493E-9439-799718E1A0C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF} = {4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9} = {65EB4DF4-8611-497D-82F8-74F292A1F2E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBC06C9-6FCA-493E-9439-799718E1A0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBC06C9-6FCA-493E-9439-799718E1A0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBC06C9-6FCA-493E-9439-799718E1A0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBC06C9-6FCA-493E-9439-799718E1A0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF} = {CA16BC64-F3E2-4992-826E-08E721F64E60}
+		{65EB4DF4-8611-497D-82F8-74F292A1F2E9} = {CA16BC64-F3E2-4992-826E-08E721F64E60}
+		{4BBC06C9-6FCA-493E-9439-799718E1A0C5} = {CA16BC64-F3E2-4992-826E-08E721F64E60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8341BC75-3C29-4668-B116-F1F2DACA6267}
+	EndGlobalSection
+EndGlobal
