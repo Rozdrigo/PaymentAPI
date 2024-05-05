@@ -58,7 +58,7 @@ namespace PaymentAPI.Infrastructure.Repositorys
             }
         }
 
-        public Task<PaymentDTO> MakePayment(MakePaymentDTO model)
+        public async Task<PaymentDTO> MakePayment(MakePaymentDTO model)
         {
             IDbContextTransaction tx = _context.Database.BeginTransaction();
             try
@@ -69,8 +69,8 @@ namespace PaymentAPI.Infrastructure.Repositorys
                 if (Payer is not null && Payee is not null)
                 {
 
-                    Account PayerAccount = _context.Accounts.Where(x => x.Owner.Id == Payer.Id).First();
-                    Account PayeeAccount = _context.Accounts.Where(x => x.Owner.Id == Payee.Id).First();
+                    Account PayerAccount = _context.Accounts.Where(x => x.Owner == Payer.Id).First();
+                    Account PayeeAccount = _context.Accounts.Where(x => x.Owner == Payee.Id).First();
 
                     if (PayerAccount is not null && PayeeAccount is not null)
                     {
@@ -87,7 +87,7 @@ namespace PaymentAPI.Infrastructure.Repositorys
                         if (PayerAccount.Value >= model.Value)
                         {
 
-                            bool paymentIsAuthorizaded = AuthorizationService.AuthorizePayment();
+                            bool paymentIsAuthorizaded = await AuthorizationService.AuthorizePaymentAsync();
 
                             if (!paymentIsAuthorizaded) {
                                 throw new Exception("Pagamento não autorizado");
@@ -97,10 +97,10 @@ namespace PaymentAPI.Infrastructure.Repositorys
                             PayeeAccount.Value += model.Value;
 
                             Payment payment = new Payment();
-                            payment.Payee = Payee;
-                            payment.Payer = Payer;
+                            payment.Payee = Payee.Id;
+                            payment.Payer = Payer.Id;
                             payment.Value = model.Value;
-                            payment.ExecutionDate = DateTime.Now;
+                            payment.ExecutionDate = DateTime.UtcNow;
 
                             _context.Accounts.Update(PayeeAccount);
                             _context.Accounts.Update(PayerAccount);
@@ -110,7 +110,7 @@ namespace PaymentAPI.Infrastructure.Repositorys
 
                             tx.Commit();
 
-                            bool notificationIsSended = NotificationService.SendNotification(Payee.Email);
+                            bool notificationIsSended = await NotificationService.SendNotificationAsync(Payee.Email);
 
                             if(!notificationIsSended)
                             {
@@ -120,7 +120,7 @@ namespace PaymentAPI.Infrastructure.Repositorys
 
                             PaymentDTO paymentResponse = _mapper.Map<Payment, PaymentDTO>(payment);
 
-                            return Task.FromResult(paymentResponse);
+                            return await Task.FromResult(paymentResponse);
                         }
                         else
                         {

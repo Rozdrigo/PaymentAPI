@@ -14,7 +14,7 @@ namespace PaymentAPI.API.Controllers
         }
 
         [HttpPost("Create")]
-        public ActionResult<UserDTO> Create(AccountCreateDTO model)
+        public ActionResult<AccountDTO> Create([FromBody] AccountCreateDTO model)
         {
             try
             {
@@ -27,7 +27,7 @@ namespace PaymentAPI.API.Controllers
             }
         }
         [HttpGet("Read")]
-        public ActionResult<UserDTO> Read()
+        public ActionResult<AccountDTO> Read()
         {
             try
             {
@@ -40,7 +40,7 @@ namespace PaymentAPI.API.Controllers
             }
         }
         [HttpGet("Read/{id}")]
-        public ActionResult<UserDTO> Read(int id)
+        public ActionResult<AccountDTO> Read(int id)
         {
             try
             {
@@ -53,7 +53,7 @@ namespace PaymentAPI.API.Controllers
             }
         }
         [HttpPut("Update")]
-        public ActionResult<UserDTO> Update(AccountUpdateDTO model)
+        public ActionResult<AccountDTO> Update(AccountUpdateDTO model)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace PaymentAPI.API.Controllers
             }
         }
         [HttpPut("Delete")]
-        public ActionResult<UserDTO> Delete(int id)
+        public ActionResult Delete(int id)
         {
             try
             {

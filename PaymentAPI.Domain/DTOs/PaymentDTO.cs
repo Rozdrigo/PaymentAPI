@@ -14,9 +14,9 @@ namespace PaymentAPI.Domain.DTOs
         [Required]
         public DateTime ExecutionDate { get; set; }
         [Required]
-        public UserDTO Payer { get; set; }
+        public int Payer { get; set; }
         [Required]
-        public UserDTO Payee { get; set; }
+        public int Payee { get; set; }
         [Required]
         public decimal Value { get; set; }
     }

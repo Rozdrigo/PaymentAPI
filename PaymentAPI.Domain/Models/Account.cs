@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,8 @@ namespace PaymentAPI.Domain.Models
     {
         public int Id { get; set; }
         [Required]
-        public User Owner { get; set; }
+        [ForeignKey("User")]
+        public int Owner { get; set; }
         [Required]
         [DefaultValue(0)]
         public StatusAccount Status { get; set; }

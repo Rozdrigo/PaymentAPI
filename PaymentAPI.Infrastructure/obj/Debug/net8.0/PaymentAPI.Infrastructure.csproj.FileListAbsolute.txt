@@ -15,3 +15,4 @@ C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAP
 C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\bin\Debug\net8.0\PaymentAPI.Domain.pdb
 C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentA.25AF0F5A.Up2Date
 C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.genruntimeconfig.cache
+C:\Users\rodri\source\repos\PaymentAPI.Infrastructure\obj\Debug\net8.0\PaymentAPI.Infrastructure.sourcelink.json

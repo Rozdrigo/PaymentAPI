@@ -12,7 +12,7 @@ using PaymentAPI.Infrastructure.Context;
 namespace PaymentAPI.API.Migrations
 {
     [DbContext(typeof(PaymentAPIContext))]
-    [Migration("20240504235206_Initial")]
+    [Migration("20240505170054_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -33,18 +33,19 @@ namespace PaymentAPI.API.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("OwnerId")
+                    b.Property<int>("Owner")
                         .HasColumnType("integer");
 
                     b.Property<int>("Status")
                         .HasColumnType("integer");
 
-                    b.Property<decimal>("value")
+                    b.Property<decimal>("Value")
                         .HasColumnType("numeric");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("OwnerId");
+                    b.HasIndex("Owner")
+                        .IsUnique();
 
                     b.ToTable("Accounts");
                 });
@@ -60,20 +61,16 @@ namespace PaymentAPI.API.Migrations
                     b.Property<DateTime>("ExecutionDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("PayeeId")
+                    b.Property<int>("Payee")
                         .HasColumnType("integer");
 
-                    b.Property<int>("PayerId")
+                    b.Property<int>("Payer")
                         .HasColumnType("integer");
 
                     b.Property<decimal>("Value")
                         .HasColumnType("numeric");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("PayeeId");
-
-                    b.HasIndex("PayerId");
 
                     b.ToTable("Payments");
                 });
@@ -118,36 +115,6 @@ namespace PaymentAPI.API.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("PaymentAPI.Domain.Models.Account", b =>
-                {
-                    b.HasOne("PaymentAPI.Domain.Models.User", "Owner")
-                        .WithMany()
-                        .HasForeignKey("OwnerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Owner");
-                });
-
-            modelBuilder.Entity("PaymentAPI.Domain.Models.Payment", b =>
-                {
-                    b.HasOne("PaymentAPI.Domain.Models.User", "Payee")
-                        .WithMany()
-                        .HasForeignKey("PayeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PaymentAPI.Domain.Models.User", "Payer")
-                        .WithMany()
-                        .HasForeignKey("PayerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Payee");
-
-                    b.Navigation("Payer");
                 });
 #pragma warning restore 612, 618
         }

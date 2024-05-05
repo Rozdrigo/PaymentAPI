@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
 
 namespace PaymentAPI.Domain.Models
@@ -10,9 +11,11 @@ namespace PaymentAPI.Domain.Models
         [Required]
         public DateTime ExecutionDate { get; set; }
         [Required]
-        public User Payer { get; set; }
+        [ForeignKey("User")]
+        public int Payer { get; set; }
         [Required]
-        public User Payee { get; set; }
+        [ForeignKey("User")]
+        public int Payee { get; set; }
         [Required]
         public decimal Value { get; set; }
     }

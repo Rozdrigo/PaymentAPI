@@ -3,19 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\source\\repos\\PaymentAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65EB4DF4-8611-497D-82F8-74F292A1F2E9}|..\\PaymentAPI.Infrastructure\\PaymentAPI.Infrastructure.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.infrastructure\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65EB4DF4-8611-497D-82F8-74F292A1F2E9}|..\\PaymentAPI.Infrastructure\\PaymentAPI.Infrastructure.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.infrastructure\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\paymentapi.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{65EB4DF4-8611-497D-82F8-74F292A1F2E9}|..\\PaymentAPI.Infrastructure\\PaymentAPI.Infrastructure.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.infrastructure\\repositorys\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\configurations\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Migrations\\20240505170054_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\accountcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F164AFC-7A02-49EB-ACEE-9C09DA01C6CF}|..\\PaymentAPI.Domain\\PaymentAPI.Domain.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BBC06C9-6FCA-493E-9439-799718E1A0C5}|..\\PaymentAPI.API\\PaymentAPI.API.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65EB4DF4-8611-497D-82F8-74F292A1F2E9}|..\\PaymentAPI.Infrastructure\\PaymentAPI.Infrastructure.csproj|c:\\users\\rodri\\source\\repos\\paymentapi.infrastructure\\repositorys\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,71 +64,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\appsettings.json",
-              "RelativeToolTip": "..\\PaymentAPI.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-05T14:42:38.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\NotificationService.cs",
               "RelativeDocumentMoniker": "..\\PaymentAPI.Infrastructure\\Services\\NotificationService.cs",
               "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\NotificationService.cs",
               "RelativeToolTip": "..\\PaymentAPI.Infrastructure\\Services\\NotificationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABKAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:42:00.379Z",
+              "WhenOpened": "2024-05-05T17:16:51.192Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorizationService.cs",
-              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
-              "RelativeDocumentMoniker": "..\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
-              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
-              "RelativeToolTip": "..\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Repositorys\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Infrastructure\\Repositorys\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Repositorys\\PaymentRepository.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Infrastructure\\Repositorys\\PaymentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:41:57.378Z",
+              "WhenOpened": "2024-05-05T16:29:36.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "..\\PaymentAPI.API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:23:15.875Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PaymentAPI.API.csproj",
-              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\PaymentAPI.API.csproj",
-              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\PaymentAPI.API.csproj",
-              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\PaymentAPI.API.csproj",
-              "RelativeToolTip": "..\\PaymentAPI.API\\PaymentAPI.API.csproj",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-05T14:18:08.32Z",
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Configurations\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Configurations\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Configurations\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "..\\PaymentAPI.API\\Configurations\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:51:13.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "..\\PaymentAPI.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-05T14:17:40.418Z",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "..\\PaymentAPI.API\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:30:06.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Infrastructure\\Services\\AuthorizationService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:22:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\AccountDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\AccountDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\AccountDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:26:04.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\AccountCreateDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\AccountCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\AccountCreateDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\AccountCreateDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:23:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\PaymentDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\PaymentDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\PaymentDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:54:20.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240505170054_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Migrations\\20240505170054_Initial.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Migrations\\20240505170054_Initial.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Migrations\\20240505170054_Initial.cs",
+              "RelativeToolTip": "..\\PaymentAPI.API\\Migrations\\20240505170054_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T17:00:54.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserUpdateDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\UserUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserUpdateDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\UserUpdateDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:55:26.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserCreateDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\UserCreateDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserCreateDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\UserCreateDTO.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:55:15.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:55:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\Payment.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:43:57.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\User.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:46:38.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Domain\\Models\\Account.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Domain\\Models\\Account.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Domain\\Models\\Account.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:46:39.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\PaymentAPI.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:37:31.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Repositorys\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "..\\PaymentAPI.Infrastructure\\Repositorys\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\rodri\\source\\repos\\PaymentAPI.Infrastructure\\Repositorys\\AccountRepository.cs",
+              "RelativeToolTip": "..\\PaymentAPI.Infrastructure\\Repositorys\\AccountRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:25:32.882Z",
               "EditorCaption": ""
             }
           ]

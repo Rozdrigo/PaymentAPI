@@ -13,7 +13,7 @@ namespace PaymentAPI.Domain.DTOs
     {
         public int Id { get; set; }
         [Required]
-        public UserDTO Owner { get; set; }
+        public int Owner { get; set; }
         [Required]
         [DefaultValue(0)]
         public StatusAccount Status { get; set; }

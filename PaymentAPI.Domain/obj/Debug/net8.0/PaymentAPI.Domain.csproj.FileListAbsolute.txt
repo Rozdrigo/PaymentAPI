@@ -12,3 +12,4 @@ C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\ref\PaymentAPI.Do
 C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.csproj.AssemblyReference.cache
 C:\Users\rodri\source\repos\PaymentAPI.Domain\bin\Debug\net8.0\PaymentAPI.Domain.runtimeconfig.json
 C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.genruntimeconfig.cache
+C:\Users\rodri\source\repos\PaymentAPI.Domain\obj\Debug\net8.0\PaymentAPI.Domain.sourcelink.json
