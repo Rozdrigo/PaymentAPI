@@ -107,3 +107,4 @@ C:\Users\rodri\source\repos\PaymentAPI.API\bin\Debug\net8.0\PaymentAPI.Infrastru
 C:\Users\rodri\source\repos\PaymentAPI.API\bin\Debug\net8.0\PaymentAPI.Domain.pdb
 C:\Users\rodri\source\repos\PaymentAPI.API\bin\Debug\net8.0\PaymentAPI.Infrastructure.pdb
 C:\Users\rodri\source\repos\PaymentAPI.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\rodri\source\repos\PaymentAPI.API\obj\Debug\net8.0\PaymentAPI.API.sourcelink.json

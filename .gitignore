@@ -13,3 +13,19 @@
 # Logs
 *.log
 *.output
+
+# Arquivos do Visual Studio
+*.vshost.exe
+*.publish.xml
+
+# Arquivos do Entity Framework
+*.mdf
+*.ldf
+*.bak
+
+# Arquivos de teste
+*.testsettings
+*.TestResults
+
+# Arquivos específicos do seu projeto
+# (Adicione aqui arquivos ou diretórios específicos que você não deseja que sejam versionados)
